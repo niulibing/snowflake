@@ -25,7 +25,7 @@ public interface SnowflakeClient {
     <repository>
         <id>nexus</id>
         <name>nexus</name>
-        <url>http://maven.cncommdata.cn/nexus/content/groups/public/</url>
+        <url>http://maven.mailke.cn/nexus/content/groups/public/</url>
         <releases>
             <enabled>true</enabled>
         </releases>
@@ -37,7 +37,7 @@ public interface SnowflakeClient {
 snowflake-client.version=1.0.2
 ```xml
 <dependency>
-    <groupId>cn.cncommdata</groupId>
+    <groupId>cn.mailke</groupId>
     <artifactId>snowflake-client</artifactId>
     <version>${snowflake-client.version}</version>
 </dependency>
@@ -52,14 +52,14 @@ snowflake-client.version=1.0.2
 ```
 snowflake:
   service:
-    url: ${snowflake-service-url:http://snowflake.dev.cncommdata.cn}
+    url: ${snowflake-service-url:http://snowflake.dev.mailke.cn}
 ```
 
 4. 在SpringBoot项目的main方法上添加注解
 
 ```java
-@SpringBootApplication(scanBasePackages = {"cn.cncommdata"})
-@EnableFeignClients(basePackages = {"cn.cncommdata"})
+@SpringBootApplication(scanBasePackages = {"cn.mailke"})
+@EnableFeignClients(basePackages = {"cn.mailke"})
 public class ${artifactIdCamelCase}Application {
 
     public static void main(String[] args) {

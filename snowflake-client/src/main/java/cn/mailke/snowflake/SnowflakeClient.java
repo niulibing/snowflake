@@ -9,8 +9,8 @@ import java.util.List;
 /**
  * @program: snowflake
  * @description: SnowflakeClient
- * @author: Johhny Chin
- * @create: 2019-03-21-12-51
+ * @author: libing.niu
+ * @create: 2020/03/27
  **/
 @Component
 public class SnowflakeClient {

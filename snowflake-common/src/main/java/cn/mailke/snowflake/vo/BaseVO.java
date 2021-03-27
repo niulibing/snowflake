@@ -5,7 +5,7 @@ import lombok.Data;
 /**
  * @program: snowflake
  * @description: basevo
- * @author: Johhny Chin
+ * @author: libing.niu
  * @create: 2019-03-28-12-48
  **/
 @Data
